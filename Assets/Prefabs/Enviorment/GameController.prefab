@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7574435443813337165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6066068603415368389}
+  - component: {fileID: 7369174189259977028}
+  - component: {fileID: 204993867733159282}
+  - component: {fileID: 7592808803232449630}
+  - component: {fileID: 5898416574952431968}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6066068603415368389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574435443813337165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.492368, y: 1.8193622, z: -0.06960347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7369174189259977028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574435443813337165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885ea1a413dab704b8793beef2144eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FrontCards:
+  - {fileID: 21300000, guid: 125f1865b4c583e4298489386e0ce291, type: 3}
+  - {fileID: 21300000, guid: f64c4c7d5e3ed0e4cb986fd67723d455, type: 3}
+  - {fileID: 21300000, guid: 41712747dc662e148ac8f54ca04560be, type: 3}
+  - {fileID: 21300000, guid: 1522575f301fceb419ce549933140683, type: 3}
+  - {fileID: 21300000, guid: 5af72ccd49560134e9f9e41f959bea3e, type: 3}
+  - {fileID: 21300000, guid: 40549c2fedc48804e91155a3d20d147a, type: 3}
+  - {fileID: 21300000, guid: 8ca165e7dd78fcc4e87422eeaf39d5a5, type: 3}
+  - {fileID: 21300000, guid: 6df8a4cc7edaed347ac561fd87eb6525, type: 3}
+  - {fileID: 21300000, guid: ada0c6210baf4744e81f7f48b93cf6db, type: 3}
+  - {fileID: 21300000, guid: c2d2be87d2e2c174ea6eea039543f713, type: 3}
+  FlippedCard1: 
+  FlippedCard2: 
+--- !u!114 &204993867733159282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574435443813337165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a7a12d2c8975fe4e8e0dcef67e5d560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _cardsDuplicate: []
+  _cardsRemaining: []
+  cardPairs: []
+  _cardsToShuffle: []
+--- !u!114 &7592808803232449630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574435443813337165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f34b3ee94fbece48832b8b55dbd17d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumberOfCards: 14
+  completedPairs: 0
+  WinObj: {fileID: 0}
+  LoseObj: {fileID: 0}
+  SFX:
+  - {fileID: 8300000, guid: 7e63c8e9f71fda24380433b755bd6cc7, type: 3}
+  - {fileID: 8300000, guid: b0ba94a549a8693428df81104408035b, type: 3}
+  - {fileID: 8300000, guid: 90df32680afdd1b4388003e5f9aa96b6, type: 3}
+  - {fileID: 8300000, guid: ccc924391cccb464e8eced21bb82001f, type: 3}
+  - {fileID: 8300000, guid: 526fc55ea3f9da8449206cea745c1c66, type: 3}
+  - {fileID: 8300000, guid: 858704a8f4c079c418f8b09bef964417, type: 3}
+  - {fileID: 8300000, guid: 8ece448be072c6843ab84b53d722c55d, type: 3}
+  - {fileID: 8300000, guid: 13408c4d4d79d3f45a617418aa0fa908, type: 3}
+--- !u!82 &5898416574952431968
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7574435443813337165}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
